@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/logos/VFB_icon.webp" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+    <title>VFB | When Banking meets Minimalist</title>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logos/VFB_logo.webp"
+          alt="VFB logo"
+          class="nav__logo"
+          id="logo"
+          data-version-number="3"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Open account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <div class="header_content">
+          <h1>
+            When
+            <!-- Green highlight effect -->
+            <span class="highlight">banking</span>
+            meets<br />
+            <span class="highlight">minimalist</span>
+          </h1>
+          <h4>A simpler banking experience for a simpler life.</h4>
+          <button class="btn--text btn--scroll-to">
+            Learn more &DownArrow;
+          </button>
+        </div>
+        <div>
+          <img
+            src="img/hero_image.avif"
+            class="header__img"
+            alt="Minimalist bank items"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern bank and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/feature1-lazy.jpg"
+          data-src="img/feature1.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% digital bank</h5>
+          <p>
+            Manage your finances from anywhere, anytime. No physical branches,
+            no paperwork—just seamless digital banking designed for your
+            convenience.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            Earn competitive interest rates on your savings with our automated
+            growth options. No hidden fees, just steady financial growth.
+          </p>
+        </div>
+        <img
+          src="img/feature2_lazy.jpg"
+          data-src="img/feature2.jpg"
+          alt="Plant"
+          class="features__img lazy-img second_img"
+        />
+
+        <img
+          src="img/feature3_lazy.jpg"
+          data-src="img/feature3.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free debit card included</h5>
+          <p>
+            Enjoy the freedom of cashless transactions with our sleek, modern
+            debit card. Make purchases online or in-store with zero hassle and
+            complete security.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant Transfers
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Instant Loans
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Instant Closing
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Tranfser money to anyone, instantly! No fees, no BS.
+          </h5>
+          <p class="operations__description">
+            Whether it’s paying a friend, sending money to family, or making
+            quick payments, our instant transfers ensure your money reaches its
+            destination in seconds. No delays, no extra costs—just fast,
+            reliable transfers at your fingertips.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Buy a home or make your dreams come true, with instant loans.
+          </h5>
+          <p class="operations__description">
+            Access funds quickly for any purpose—whether it’s buying your dream
+            home, starting a business, or managing unexpected expenses. Our
+            instant loans are easy to apply for, with competitive rates and
+            flexible repayment options designed to fit your needs.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            No longer need your account? No problem! Close it instantly.
+          </h5>
+          <p class="operations__description">
+            If it's time to move on, close your account with just a few
+            clicks—no paperwork, no long waits, and no questions asked. Enjoy
+            the freedom of complete control over your banking experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="bank-card-content">
+        <div class="cards">
+          <div class="card">
+            <picture>
+              <img src="img/card1.png" />
+            </picture>
+          </div>
+          <div class="card">
+            <picture>
+              <img src="img/card2.png" />
+            </picture>
+          </div>
+          <div class="card">
+            <picture>
+              <img src="img/card3.png" />
+            </picture>
+          </div>
+        </div>
+        <div class="title">
+          <h3 class="section__header">Card types</h3>
+          <p class="cards-description">
+            There are several types of cards available, each serving unique
+            purposes. Credit cards, Debit cards, Prepaid cards, Business cards,
+            Virtual cards etc. Find what's best for you and apply for it right
+            now!
+          </p>
+        </div>
+        <div class="btns">
+          <button class="btn">Apply now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stocks_section">
+      <div class="stocks">
+        <h3 class="section__header center">You call the stocks</h3>
+        <p class="stocks__description">
+          Convert your money into stocks, from Apple to Tesla, and choose from
+          over 2,000+ options. Use your investments to spend on what matters to
+          you. Pay with your favorite assets directly from your account
+        </p>
+
+        <video
+          muted
+          autoplay
+          playsinline
+          aria-hidden="true"
+          loop
+          poster="https://assets.revolut.com/published-assets-v3/821f1773-222c-442f-931c-134a1ee83873/c8e1a9cc-8194-47cf-96fa-4998e653a59d.png"
+          width="100%"
+          class="sc-ca0e39d9-0 hgYXvv"
+        >
+          <source
+            src="https://assets.revolut.com/published-assets-v3/5f4fb898-c9b4-4b25-93e2-c91ed61b24c7/27570fcc-84fb-4b23-8dcb-a65e27ab85f8.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div>
+          <button class="btn btn-black">Stocks</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of VFBs are already making their lifes simpler.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Switching to VFB was the best choice I made. The ease of managing
+              my finances and the excellent customer service have truly set them
+              apart
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              VFB has made my banking experience smooth and stress-free. No more
+              waiting in lines or dealing with outdated systems.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school banks
+            </h5>
+            <blockquote class="testimonial__text">
+              VFB has transformed my banking experience—no hidden fees, no
+              paperwork, just fast, easy, and digital. It's banking made simple
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join VFB was one year ago. The second best is today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/logos/VFB_whiteLogo.webp" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a class="footer__link twitter-link" target="_blank" href="#"
+          >Ester Minja</a
+        >.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!--     <script src="script.js"></script>
+-->
+  </body>
+</html>

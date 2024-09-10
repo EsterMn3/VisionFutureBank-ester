@@ -1,0 +1,304 @@
+/*1rem = 1em = 16px*/
+/***********************/
+/*Below 1232px(Landscape Tablets)*/
+/***********************/
+@media (max-width: 77em) {
+  html {
+    /*9px/16px =56.25% */
+    font-size: 59.25%;
+  }
+  .header {
+    height: auto;
+  }
+  .header__title {
+    max-width: 80rem;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+    text-align: center;
+  }
+  .header_content {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .header__title div {
+    margin-bottom: 4rem;
+  }
+  .header__img {
+    width: 84%;
+    grid-column: 1;
+    grid-row: 4;
+    transform: translateY(-6rem);
+    margin-top: 4rem;
+  }
+  .section__header {
+    font-size: 3rem;
+  }
+  .section__title {
+    max-width: 80rem;
+  }
+  .features {
+    grid-template-columns: 1fr;
+    margin: 0 4rem;
+  }
+  .features__feature {
+    width: 75%;
+  }
+  .features__img {
+    justify-self: center;
+    max-width: 90rem;
+    width: 100%;
+  }
+  .second_img {
+    grid-row: 3;
+  }
+  .section {
+    padding: 10rem 3rem;
+  }
+  .btn {
+    padding: 1.25rem 2.5rem;
+  }
+  .operations {
+    max-width: 80rem;
+  }
+  .operations__header {
+    font-size: 2.1rem;
+  }
+  .operations__content {
+    font-size: 1.5rem;
+  }
+  .cards-description {
+    font-size: 1.5rem;
+  }
+  .stocks__description {
+    max-width: 70rem;
+    font-size: 1.8rem;
+  }
+  .stocks video {
+    max-width: 40rem;
+    width: 100%;
+  }
+}
+
+/***********************/
+/*Below 800px(tablets)*/
+/***********************/
+@media (max-width: 50em) {
+  h1 {
+    font-size: 4rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+
+  .btn--text {
+    font-size: 1.7rem;
+  }
+  .section {
+    padding: 8rem 5rem;
+  }
+  .nav__logo {
+    width: 8rem;
+  }
+  .nav {
+    flex-direction: column;
+    padding-bottom: 52px;
+  }
+  .nav__links {
+    gap: 3.5rem;
+  }
+  .nav.sticky {
+    padding-top: 4rem;
+    padding-bottom: 15rem;
+  }
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 2.1rem;
+  }
+  .header__img {
+    width: 70%;
+  }
+
+  .section__title {
+    max-width: 50rem;
+    margin: 0 auto 4rem auto;
+  }
+  .section__header {
+    font-size: 2.5rem;
+  }
+
+  .features__header {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .features__feature {
+    width: 92%;
+    font-size: 1.7rem;
+  }
+  .cards-description {
+    margin: 0 5rem;
+    margin-top: 1rem;
+  }
+  .card:nth-child(1) {
+    transform: translate(240px, 1px) rotate(-100deg); /* Adjust the position and rotation for the first card */
+    z-index: 5; /* Send to back */
+  }
+
+  .card:nth-child(2) {
+    transform: translate(0, 0) rotate(-108deg); /* Middle card stays vertical */
+    z-index: 10; /* On top */
+  }
+
+  .card:nth-child(3) {
+    transform: translate(-240px, 1px) rotate(-120deg); /* Adjust the position and rotation for the third card */
+    z-index: 5; /* Send to back */
+  }
+  .card picture img {
+    height: auto;
+    max-width: 70%;
+  }
+  .bank-card-content .title {
+    text-align: center;
+    padding: 0 3rem;
+  }
+  .operations__tab span {
+    display: none;
+  }
+  .footer {
+    padding: 5rem 3rem;
+  }
+  .footer__nav {
+    text-align: center;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .dots {
+    bottom: 0%;
+  }
+}
+/***********************/
+/*Below 560px(Phones)*/
+/***********************/
+@media (max-width: 35em) {
+  html {
+    /*9px/16px =56.25% */
+    font-size: 30.25%;
+  }
+  .header__title {
+    margin-top: 7rem;
+  }
+  .nav__logo {
+    width: 8rem;
+  }
+  .nav {
+    gap: 1rem;
+  }
+  .nav.sticky {
+    padding-top: 4rem;
+    padding-bottom: 15rem;
+  }
+  .card picture img {
+    height: auto;
+    max-width: 65%;
+  }
+  .features__img {
+    justify-self: center;
+    max-width: 80rem;
+    width: 100%;
+  }
+
+  .operations__icon {
+    height: 4rem;
+    width: 4rem;
+  }
+  .operations__content--active {
+    column-gap: 1rem;
+    grid-template-columns: 4.5rem 1fr;
+  }
+  .card:nth-child(1) {
+    transform: translate(190px, 1px) rotate(-100deg); /* Adjust the position and rotation for the first card */
+  }
+
+  .card:nth-child(2) {
+    transform: translate(-10px, 0) rotate(-108deg); /* Middle card stays vertical */
+  }
+
+  .card:nth-child(3) {
+    transform: translate(-220px, 4px) rotate(-120deg); /* Adjust the position and rotation for the third card */
+  }
+  .bank-card-content .title {
+    margin-top: 11rem;
+  }
+  .modal {
+    max-width: 44rem;
+    padding: 1rem 3rem;
+  }
+  .section__header {
+    font-size: 3rem;
+  }
+  .section__title {
+    max-width: 60rem;
+  }
+  .testimonial__photo {
+    grid-row: 1 / span 2;
+    width: 4rem;
+    border-radius: 50%;
+  }
+  .testimonial__text {
+    font-size: 1.8rem;
+  }
+  .testimonial::before {
+    content: '\201C';
+    position: absolute;
+    top: -3rem;
+    left: -6rem;
+    line-height: 1;
+    font-size: 20rem;
+    font-family: inherit;
+    color: var(--color-primary);
+    z-index: -1;
+  }
+  .testimonial__author {
+    margin-bottom: 4rem;
+    grid-template-columns: 4rem 1fr;
+  }
+}
+/***********************/
+/*Below 390px(IPhones)*/
+/***********************/
+@media (max-width: 25.3em) {
+  .nav.sticky {
+    padding-top: 2rem;
+    padding-bottom: 12rem;
+  }
+  .features {
+    margin: 0 auto;
+  }
+  .operations__icon {
+    height: 4rem;
+    width: 4rem;
+  }
+  .operations__icon svg {
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+  .operations__content {
+    font-size: 1.7rem;
+    padding: 2.5rem 5rem 6.5rem 5rem;
+  }
+
+  .bank-card-content .title {
+    margin-top: 7rem;
+  }
+  .card:nth-child(1) {
+    transform: translate(139px, 1px) rotate(-100deg);
+  }
+
+  .card:nth-child(2) {
+    transform: translate(-10px, 0) rotate(-108deg); /* Middle card stays vertical */
+  }
+
+  .card:nth-child(3) {
+    transform: translate(-165px, 4px) rotate(-120deg); /* Adjust the position and rotation for the third card */
+  }
+}
